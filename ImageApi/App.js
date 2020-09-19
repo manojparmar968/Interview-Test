@@ -132,7 +132,7 @@ export default class App extends Component {
       </>
     );
   }
-}; // hr.technorizen@gmail.com
+};
 
 const styles = StyleSheet.create({
   body: {
