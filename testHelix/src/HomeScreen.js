@@ -63,7 +63,7 @@ export default class HomeScreen extends React.Component {
               {isLoading ? <ActivityIndicator/> : (
                 
                   <FlatList
-                    horizontal
+                    horizontal = {false}
                     showsHorizontalScrollIndicator={false}
                     data={data}
                     // keyExtractor={({ id }, index) => id.toString()}
